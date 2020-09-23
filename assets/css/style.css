@@ -134,7 +134,7 @@ hr {
 }
 
 
-******************************** /* Empresa */ **********************************
+ /********************* Empresa *****************/ 
 .spikes {
     position: relative;
     background: rgb(250, 102, 176);
@@ -155,10 +155,11 @@ hr {
     background-position: 0 0;
 }
 
-******************************** /*Produtos */ **********************************
+ /****************** Produtos *****************/ 
 
 .facaaqui { 
-    width: 900px;
+    width: 900px
+    ;
     height: 50px;
     background-color: red;
     color: white;
