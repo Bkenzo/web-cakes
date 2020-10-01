@@ -17,6 +17,10 @@
             <a href="https://www.instagram.com/" class="link-email ml-2" target="_blank">
                 <i class="fa fa-instagram"></i>
             </a>
+
+            <a href="https://web.whatsapp.com/send?phone=5521993200907" class="link-email ml-2" target="_blank">
+                <i class="fa fa-whatsapp"></i>
+            </a>
         </div>
     </div>
 </div>

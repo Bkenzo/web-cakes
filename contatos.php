@@ -31,17 +31,36 @@
     }
 ?>
 
+<form name="formteste" action="" method="post">
 
-<h1 class=" text-center">Fale Comigo!</h1>
+<h1>Contato</h1>
 
-<form action="?p=contatos" method="post">
-    <input type="text" name="text_email" placeholder="Email"><br>
-    <input type="text" name="text_assunto" placeholder="Assunto" required><br>
-    <textarea name="text_mensagem" cols="50" rows="10" required></textarea>
-    <input type="submit" value="Enviar Mensagem">
+<p class="nome">
+ <input type="text" name="nome" placeholder="informe seu nome" required="required">
+ </p>
+
+<p class="email">
+ <input type="email" name="email" placeholder="informe seu email" required="required">
+ </p>
+
+<p class="assunto">
+ <input type="text" name="assunto" placeholder="informe o assunto" required="required">
+ </p>
+
+<p class="mensagem">
+ <textarea name="mensagem" placeholder="deixe sua mensagem"></textarea>
+ </p>
+
+<p class="enviar">
+ <input type="submit" name="enviar" value="Enviar">
+ </p>
+
 </form>
+
 
 <?php if(!empty($erro)):?>
     <div style="color: red;"><?php echo $erro; ?></div>
 <?php endif; ?>
+
+
 

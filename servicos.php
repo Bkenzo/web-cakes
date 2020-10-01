@@ -9,9 +9,10 @@
     </div>  
 </div>
 
-    <div class="facaaqui">
-        facaaqui
-    </div>
+<div class="btao">    
+    <button class="pedido">Faça aqui seu Pedido!</button>
+</div>
+
 
 <div class="container-fluid produtos">
     <div class="tabela_precos">
