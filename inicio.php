@@ -97,8 +97,6 @@
     </div>
   </div>
 </div>
-<br>
-<br>
 <a class="whatsapp-link" href="https://web.whatsapp.com/send?phone=5521993200907" target="_blank">
 <i class="fa fa-whatsapp"></i>
 </a>

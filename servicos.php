@@ -15,7 +15,7 @@
 
 
 <div class="container-fluid produtos">
-    <div class="tabela_precos">
+    <div class="tabela_precos mt-5">
         <div class="card">
             <img src="assets/img/bolo-morango-icon.png" alt="">
             <h4 class="card_preco">Bolo de Morango</h4>
@@ -64,6 +64,126 @@
         <div class="card">
             <img src="" alt="">
             <h2 class="card_preco">Monte seu Bolo</h2>
+            <div class="preco">R$ 00,00</div>
+            <ul>
+                <h5>Recheio</h5>
+                <li>1 Chantilly</li>
+                <li>2 Glace</li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<div class="container-fluid produtos">
+    <div class="tabela_precos mt-5">
+        <div class="card">
+            <img src="#" alt="">
+            <h4 class="card_preco">B</h4>
+            <div class="preco">R$ 110,00</div>
+            <ul>
+                <li>2 Camada</li>
+                <li>Chantilly</li>
+            </ul>
+        </div>
+        <div class="card">
+            <img src="#" alt="">
+            <h2 class="card_preco"></h2>
+            <div class="preco">R$ 110,00</div>
+            <ul>
+                <li>4 Camadas</li>
+                <li>Glace</li>
+            </ul>
+        </div>
+        <div class="card">
+            <img src="#" alt="">
+            <h2 class="card_preco"></h2>
+            <div class="preco">R$ 110,00</div>
+            <ul>
+                <li>2 Camadas</li>
+                <li>Pasta Americana</li>
+            </ul>
+        </div>
+        <div class="card">
+            <img src="#" alt="">
+            <h2 class="card_preco"></h2>
+            <div class="preco">R$ 110,00</div>
+            <ul>
+                <li>3 Camadas</li>
+                <li>Chantilly</li>
+            </ul>
+        </div>
+        <div class="card">
+            <img src="" alt="">
+            <h2 class="card_preco"></h2>
+            <div class="preco">R$ 110,00</div>
+            <ul>
+                <li>2 Camadas</li>
+                <li>Pasta Americana</li>
+            </ul>
+        </div>
+        <div class="card">
+            <img src="#" alt="">
+            <h2 class="card_preco"></h2>
+            <div class="preco">R$ 00,00</div>
+            <ul>
+                <h5>Recheio</h5>
+                <li>1 Chantilly</li>
+                <li>2 Glace</li>
+            </ul>
+        </div>
+    </div>
+</div>
+
+<div class="container-fluid produtos">
+    <div class="tabela_precos mt-5">
+        <div class="card">
+            <img src="#" alt="">
+            <h4 class="card_preco"></h4>
+            <div class="preco">R$ 110,00</div>
+            <ul>
+                <li>2 Camada</li>
+                <li>Chantilly</li>
+            </ul>
+        </div>
+        <div class="card">
+            <img src="#" alt="">
+            <h2 class="card_preco"></h2>
+            <div class="preco">R$ 110,00</div>
+            <ul>
+                <li>4 Camadas</li>
+                <li>Glace</li>
+            </ul>
+        </div>
+        <div class="card">
+            <img src="#" alt="">
+            <h2 class="card_preco"></h2>
+            <div class="preco">R$ 110,00</div>
+            <ul>
+                <li>2 Camadas</li>
+                <li>Pasta Americana</li>
+            </ul>
+        </div>
+        <div class="card">
+            <img src="#" alt="">
+            <h2 class="card_preco"></h2>
+            <div class="preco">R$ 110,00</div>
+            <ul>
+                <li>3 Camadas</li>
+                <li>Chantilly</li>
+            </ul>
+        </div>
+        <div class="card">
+            <img src="#" alt="">
+            <h2 class="card_preco"></h2>
+            <div class="preco">R$ 110,00</div>
+            <ul>
+                <li>2 Camadas</li>
+                <li>Pasta Americana</li>
+            </ul>
+        </div>
+        <div class="card">
+            <img src="" alt="#">
+            <h2 class="card_preco"></h2>
             <div class="preco">R$ 00,00</div>
             <ul>
                 <h5>Recheio</h5>
