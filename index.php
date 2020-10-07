@@ -9,10 +9,6 @@
         $pag = $_GET['p'];
     }
 
-    if(empty($_POST) == false){
-        var_dump($_POST);
-    }
-    
 
     switch ($pag) {
         case 'inicio':

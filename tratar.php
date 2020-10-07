@@ -1,5 +1,5 @@
 <?php
-
+/*
     // verificar se os campos existem    
     if(!isset($_POST['text_usuario']) || !isset($_POST['text_senha'])){
         die('Erro - Não existem os campos necessários.');
@@ -40,3 +40,4 @@
     echo 'Usuário: '.$usuario;
     echo '<br>';
     echo 'Senha: '.$senha;
+    */

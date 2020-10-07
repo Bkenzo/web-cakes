@@ -1,3 +1,11 @@
+<?php
+include_once("gestor.php");
+$gestor = new Gestor();
+$pdo = $gestor->openDataBase();
+$sql = "SELECT * FROM avaliacao ORDER BY data DESC LIMIT 10;";
+$query = $pdo->prepare($sql);
+$query->execute();
+?>
 <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
   <div class="carousel-inner">
     <div class="carousel-item active slide1">
@@ -78,18 +86,29 @@
   <div class="row">
     <div class="col-12 p-5 text-center">
     <h2>Comentários</h2>
-    <div class="col-12 p-5 text-center">
-      <img src="assets/img/jovem-avatar.png" alt="">
-      <p>"Gostei muito do bolo!!"</p>
-    </div>
+    <?php
+      if($query->rowCount() > 0){
+        while ($rs = $query->fetch(PDO::FETCH_OBJ)) {
+      ?>
+          <div class="col-12 p-5 text-center">
+          <img src="assets/img/jovem-avatar.png" alt="" class="eximg">
+          <p class="exnome"><?= $rs->nome ?></p>
+          <p class="exmensag"><?= $rs->mensagem ?></p>
+          <p class="exdata"><?= date("d/m/Y", strtotime($rs->data)) ?></p>
+        </div>
+      <?php
+        }
+      }
+    ?>
+
     </div>
   </div>
 
   <div class="row">
     <div class="col-12 text-center">
       <h2>Qual sua Avaliação sobre nossos Produtos?</h2>
-      <form action="comentario" method="post">
-        <input type="text" name="text_name" placeholder="Seu nome"><br>
+      <form action="mensagens.php" method="post">
+        <input type="text" name="text_name" placeholder="Seu nome" autocomplete="off"><br>
         <textarea name="text_mensagem" cols="80" rows="3" placeholder="O que achou?" required></textarea>
         <p class="enviar">
         <input type="submit" value="Enviar Mensagem">

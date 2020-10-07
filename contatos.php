@@ -1,8 +1,8 @@
 
 <?php
-    // validação do formulário
+/*
+// validação do formulário
     if($_SERVER['REQUEST_METHOD'] == 'POST'){
-
         $erro = '';
 
         // verifica se existem todos os campos
@@ -29,6 +29,7 @@
 
         // envio de email
     }
+    */
 ?>
 
 <form name="formteste" action="" method="post">
